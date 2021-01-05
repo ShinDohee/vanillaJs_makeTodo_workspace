@@ -11,3 +11,101 @@
     text-align: center;
     font-weight: 80%;
 }
+
+#gotoBtn {
+    margin-left: 20em;
+    width: 3em;
+    height: 3em;
+}
+
+.inputarea {
+    text-align: center;
+}
+
+#enter {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 100;
+}
+
+#inputText {
+    width: 300;
+    height: 2.5em;
+}
+
+#todolist,
+#donelist {
+    list-style: none;
+    width: 100%;
+    height: 2.5;
+}
+
+#todolist li {
+    border-left: 5px solid #25c797;
+    border-bottom: 1px dashed #ccc;
+    margin-bottom: 4px;
+    width: 100%;
+    height: 2.5em;
+    cursor: pointer;
+    transition: all 0.5s;
+    transition-timing-function: ease;
+    color: #696969;
+    background-color: #f1f1f1;
+}
+
+#todolist li:hover {
+    transition: all 0.5s;
+    transition-timing-function: ease;
+    background-color: #25C797;
+    color: #696969;
+}
+
+#donelist li {
+    border-bottom: 1px dashed #ccc;
+    margin-bottom: 4px;
+    width: 100%;
+    height: 3em;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+    transition-timing-function: ease;
+    color: #6b1443;
+    background-color: #fff;
+}
+
+#donelist li:hover {
+    transition: all 0.5s;
+    transition-timing-function: ease;
+    background-color: #dd72ab;
+    color: #bfdbe4;
+}
+
+#todolist li span {
+    font-size: 1.3em;
+    font-weight: 200;
+    padding-left: 10px;
+    vertical-align: middle;
+}
+
+#donelist li span {
+    font-size: 1.3em;
+    font-weight: 200;
+    padding-left: 10px;
+    vertical-align: middle;
+    text-decoration: line-through;
+    color: #f171b6;
+}
+
+.fa-minus {
+    float: right;
+    padding: 5px;
+    visibility: hidden;
+    color: #fa0032;
+}
+
+.fa-pencil-alt {
+    float: right;
+    padding: 5px;
+    visibility: hidden;
+    color: rgb(11, 47, 252);
+}
